@@ -1,7 +1,11 @@
 .head{
     height: 100vh;
     width: 100%;
-    background-image: url(${bg);
+    
+    /* added */
+    background-image: url("../Images/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* .img{
     width: 100%;
